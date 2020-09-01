@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programemos</title>
+    <style>
+        #auto-complete-list{
+            list-style-image: url('https://png.pngtree.com/png-vector/20190223/ourmid/pngtree-search-vector-icon-png-image_696422.jpg');
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div id="buscador">
+        <input type="text" id="movieName" placeholder="Nombre de la pelicula que desea buscar">
+        <button onclick="search()">Buscar</button>
+        <div>
+            <ul id="auto-complete-list">
+                
+            </ul>
+        </div>
+    </div>
+
+    <section id="search-result"></section>
+
+    <script src="script/index.js"></script>
+</body>
+
+</html>
